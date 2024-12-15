@@ -1,0 +1,65 @@
+
+<!DOCTYPE html><html lang="en" data-scrapbook-adoptedstylesheets="0" data-scrapbook-source="https://onsolana.webby.fun/" data-scrapbook-create="20241215142908899"><head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="all.min.css" referrerpolicy="no-referrer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000">
+    <link rel="stylesheet" href="rul4sbe.css">
+    <title>$TKGE</title>
+    <link rel="stylesheet" href="index-BIPvAjgV.css">
+    <link rel="icon" type="image/svg+xml" href="Untitled_design.png">
+</head>
+<body>
+    <div id="root">
+        <div class="background_img" style="background: url('IMG_0872.webp') 0% 0% / cover;"></div>
+        <div class="template_two_blur"></div>
+        <div class="template_two">
+            <div class="left_side_two">
+                <img src="Untitled_design.png" alt="">
+            </div>
+            <div class="right_side_two">
+                <img src="shadow2.png" class="template_two_shadow" alt="">
+                <h1>$TKGE</h1>
+                <div class="template_two_ca">
+                    <p>tkkELbFvDJ5NVFLiiHf5d3cZwdRWLA3er2QsAnFH4ce</p>
+                    <img src="copy2-DRsPcSEs.png" alt="copy image">
+                </div>
+                <div class="seperator_line"></div>
+                <p style="margin: 0px 0px 2rem;">
+                    Send Solana To The Address Above / MIN: 0.03 SOL / MAX: 20 SOL PRESALE RATE: 1 SOL = 10,000,000 $TKGE
+                </p>
+                <div class="header_socials">
+                    <a href="https://t.me/GodsGardenofEden" target="_blank">
+                        <img src="telegramlogo-CnQpokZu.webp" alt="">
+                    </a>
+                    <a href="https://x.com/TreeGoodEvil" target="_blank">
+                        <img src="xlogo-CjXCXBFo.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const copyDiv = document.querySelector('.template_two_ca');
+        const textToCopy = copyDiv.querySelector('p').innerText;
+        const copyImage = copyDiv.querySelector('img');
+
+        copyDiv.addEventListener('click', function () {
+          navigator.clipboard.writeText(textToCopy).then(() => {
+            // Đổi hình ảnh copy thành tick
+            copyImage.src = 'tick-CD2NzwHr.png';
+            
+            // Sau 2 giây đổi lại hình ảnh copy ban đầu
+            setTimeout(() => {
+              copyImage.src = 'copy2-DRsPcSEs.png';
+            }, 2000);
+          }).catch(err => {
+            console.error('Copy failed:', err);
+          });
+        });
+      });
+    </script>
+</body>
+</html>
